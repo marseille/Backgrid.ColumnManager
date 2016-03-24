@@ -871,7 +871,7 @@ Backgrid.Extension.ColumnManagerVisibilityControl = Backbone.View.extend({
    */
   closeOnEsc: function (e) {
     if (e.which === 27) {
-      this.deferClose();
+      this.deferClose(e);
     }
   },
 
